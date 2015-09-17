@@ -1,0 +1,22 @@
+{
+  "name": "@mattstyles/tick",
+  "version": "0.0.1",
+  "description": "RAF wrapper for managing timers",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/mattstyles/tick.git"
+  },
+  "keywords": [
+    "raf",
+    "requestAnimationFrame",
+    "tick",
+    "timer",
+    "stream"
+  ],
+  "author": "Matt Styles",
+  "license": "ISC"
+}
