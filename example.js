@@ -1,11 +1,12 @@
 var Tick = require( './lib/index' )
 var tick = new Tick({
-    frameRate: 20
+    frameRate: 30
 })
 
 var count = 0
 tick.on( 'data', dt => {
-    if ( ++count >= 20 ) {
+    console.log( dt )
+    if ( ++count >= 30 ) {
         console.log( '1s' )
         count = 0
     }

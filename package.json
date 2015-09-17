@@ -1,7 +1,7 @@
 {
-  "name": "tickit",
+  "name": "@mattstyles/tick",
   "version": "0.0.0",
-  "description": "RAF wrapper for managing timers",
+  "description": "Framelimits raf-stream",
   "main": "lib/index.js",
   "scripts": {
     "prepack": "npm run build",
@@ -16,6 +16,7 @@
   },
   "keywords": [
     "raf",
+    "raf-stream",
     "requestAnimationFrame",
     "tick",
     "timer",
