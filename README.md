@@ -22,6 +22,8 @@ tick.on( 'data', dt => {
 
 ### new Tick( <Object> ) _constructor_
 
+Creates a new tick emitter
+
 ```js
 let tick = new Tick({
   el: document.querySelector( 'canvas' ),
