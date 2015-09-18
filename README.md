@@ -20,7 +20,7 @@ tick.on( 'data', dt => {
 
 ## API
 
-### new Tick( <Object> ) _constructor_
+### new Tick( `<Object>` ) _constructor_
 
 Creates a new tick emitter
 
@@ -31,9 +31,9 @@ let tick = new Tick({
 })
 ```
 
-* __el__ <DOMElement> the dom element to attach to
+* __el__ `<DOMElement>` the dom element to attach to
 
-* __frameRate__ <Number> ticks per second
+* __frameRate__ `<Number>` ticks per second
 
 Framerate can be changed on fly just by setting it
 
